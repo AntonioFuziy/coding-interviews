@@ -1,5 +1,5 @@
 class Solution:
-  def rotate(self, matrix: List[List[int]]) -> None:
+  def rotate(self, matrix: list[list[int]]) -> None:
     for i in range(len(matrix)):
       for j in range(i, len(matrix[0])):
         switch1 = matrix[i][j]
