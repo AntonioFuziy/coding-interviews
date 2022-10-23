@@ -30,7 +30,7 @@ Um exemplo para essa solução pode ser verificado através do gráfico a seguir
 
 Para a entrada [7, 1, 5, 3, 6, 4]
 
-![Graph 1](/images/solution1_maxprofit.png)
+![Graph 1](https://github.com/AntonioFuziy/coding-interviews/blob/master/leetcode/final-interviews/images/solution1_maxprofit.png?raw=true)
 
 Dessa forma, observando os picos e vales do gráfico o algoritmo tende a priorizar os retornos com maior diferença entre picos e vales. Portanto, o resultado do algoritmo será 7, somando-se a diferença entre o pico **i** e o vale **i** com resultado 4, junto da diferença do pico **j** e vale **j** com resultado 3, logo 4 + 3 = 7.
 
@@ -40,7 +40,7 @@ Para a segunda solução o algoritmo é bem similar, porém mais simples. Nesse 
 
 Para a entrada [1, 7, 2, 3, 6, 7, 6, 7]
 
-![Graph 2](/images/solution2_graph.png)
+![Graph 2](https://github.com/AntonioFuziy/coding-interviews/blob/master/leetcode/final-interviews/images/solution2_graph.png?raw=true)
 
 Portanto, identificando a soma dos valores de A, B, C, D e E, temos um resultado de 12 como maior retorno.
 
